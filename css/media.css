@@ -1,0 +1,134 @@
+@media (max-width: 1260px) {
+    .info__item {
+        padding: 30px;
+    }
+    .info__title {
+        font-size: 16px;
+    }
+    .inf__text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .wrapper {
+        text-align: center;
+    }
+    .info__title {
+        letter-spacing: unset;
+    }
+    .about__block {
+        padding-right: 30px;
+    }
+    .services__content {
+        height: 400px;
+    }
+    .info {
+        transform: translateY(-75px);
+        margin-bottom: -40px;
+    }
+    .block {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .container {
+        flex-wrap: wrap;
+    }
+    .block__title {
+        text-align: center;
+    }
+    .contacts__form {
+        margin: 0 auto;
+    }
+    .process__title {
+        font-size: 100px;
+        margin-bottom: 10px;
+    }
+    .section.process {
+        padding-top: 0;
+    }
+    .process__subtitle {
+        margin-bottom: 20px;
+    }
+    .process_item {
+        text-align: center;
+        min-height: auto;
+        padding: 20px 12px;
+    }
+}
+
+@media (max-width: 992px) {
+    .section {
+        margin-bottom: 30px;
+    }
+    .header__logo img {
+        height: 55px;
+    }
+    .intro__content {
+        justify-content: center;
+        height: 530px;
+    }
+    .intro__title {
+        font-size: 34px;
+    }
+    .intro__content {
+        text-align: center;
+    }
+    .about {
+        padding: 30px 0;
+    }
+    .about__wrapper {
+        flex-direction: column;
+    }
+    .about__block {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .about__img {
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navigation {
+        display: none;
+    }
+    .process__subtitle {
+        padding-bottom: 30px;
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .section.process {
+        padding-top: 0;
+    }
+    .contact {
+        padding: 50px 0;
+    }
+    .contact__block__title {
+        padding-top: 0;
+    }
+    .footer__wrapper {
+        height: auto;
+        padding: 30px 0;
+        flex-direction: column;
+    }
+    .copyright {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 460px) {
+    .block__title {
+        font-size: 24px;
+    }
+    .form__row {
+        margin: 0 -10px;
+        flex-direction: column;
+    }
+    .form__group {
+        padding: 0 10px;
+    }
+    .header__logo img {
+        height: 45px;
+    }
+}
